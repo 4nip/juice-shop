@@ -1,0 +1,10 @@
+version: v1.25.0
+ignore:
+  SNYK-JS-DECOMPRESS-20254116:
+    - '*':
+        reason: 'Tidak ada patch upgrade dari upstream, fungsi decompress terisolasi'
+        expires: 2026-12-31
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Dev-only dependency / modul lama tanpa patch resmi'
+        expires: 2026-12-31
